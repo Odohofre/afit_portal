@@ -18,9 +18,11 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="ml-[100px] mb-2.5 text-center">
-        <h2 className="font-rockwell text-3xl leading-[1.1] mt-5 mb-2.5">Student Portal</h2>
-        <Link href="https://afit.edu.ng/" className="font-normal ml-[100px] mb-2.5">
+      <div className="ml-25 mb-2.5 text-center">
+        <h2 className="font-rockwell text-3xl leading-[1.1] mt-5 mb-2.5">
+          Student Portal
+        </h2>
+        <Link href="https://afit.edu.ng/" className="font-normal ml-25 mb-2.5">
           AFIT Main Site
         </Link>
       </div>

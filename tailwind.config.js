@@ -17,8 +17,8 @@ module.exports = {
       fontFamily: {
         rockwell: ["Rockwell", 'ui-serif'],
       },
-      padding: {
-        25: '100px'
+      spacing: {
+        '25': '6.25rem',
       }
     },
   },
