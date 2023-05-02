@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <main className="container h-screen grid-cols-4 grid-rows-4 ">
+        <main className="container h-scree grid grid-cols-4 grid-rows-12 gap-2.5">
           <Header />
           <Aside />
           {children}

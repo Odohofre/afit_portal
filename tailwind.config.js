@@ -15,11 +15,12 @@ module.exports = {
         "royal-blue": "#08387f",
       },
       fontFamily: {
-        rockwell: ["Rockwell", 'ui-serif'],
+        rockwell: ["Rockwell", "ui-serif"],
       },
       spacing: {
-        '25': '6.25rem',
-      }
+        3.75: "0.9375rem",
+        25: "6.25rem",
+      },
     },
   },
   plugins: [],

@@ -4,10 +4,10 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="flex flex-col lg:flex-row lg:items-center justify-center lg:justify-start text-white bg-royal-blue py-2.5 mb-5">
+    <header className="flex row-span-4 col-span-4 flex-col lg:flex-row lg:items-center justify-center lg:justify-start text-white bg-royal-blue py-2.5 mb-5">
       {/* school logo */}
       <div className="flex">
-        <div className="px-4 w-[115px]">
+        <div className="px-3.75 w-[115px]">
           <Image src={afitLogo} alt="AFIT Logo" width={110} height={100} />
         </div>
         <div className="mt-2.5 font-rockwell leading-[1.1]">
