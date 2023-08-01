@@ -5,7 +5,7 @@ import Aside from "@/components/Aside";
 
 export const metadata = {
   title: "Air Force Institute of Technology Portal",
-  viewport: "",
+  // viewport: "",
 };
 
 export default function RootLayout({ children }) {

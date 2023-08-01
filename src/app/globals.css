@@ -8,3 +8,22 @@ body {
   color: #333;
   background-color: #fff;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 8px;
+  border: 1px solid #000;
+}
+
+/* Styles specific to print */
+@media print {
+  table th,
+  table td {
+    background-color: #f2f2f2;
+  }
+}

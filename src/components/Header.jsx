@@ -1,5 +1,5 @@
 import Image from "next/image";
-import afitLogo from "@/afit-logo.png";
+import afitLogo from "@/assets/afit-logo.png";
 import Link from "next/link";
 
 export default function Header() {
